@@ -1,0 +1,81 @@
+#root {
+  width: 100vw;
+  display: -ms-grid;
+  display: grid; }
+
+@media screen and (min-width: 960px) {
+  .App {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 100%;
+    grid-template-rows: 100%;
+    -ms-grid-columns: 50% 50%;
+    grid-template-columns: 50% 50%; } }
+
+code {
+  font-size: 0.9rem; }
+  @media screen and (min-width: 720px) {
+    code {
+      font-size: 1.1rem; } }
+
+.Editor-Container {
+  display: -ms-grid;
+  display: grid;
+  margin: 0 auto;
+  height: 100vh;
+  background: #6ab7ff; }
+  @media screen and (min-width: 960px) {
+    .Editor-Container {
+      -ms-grid-rows: 10% 90%;
+      grid-template-rows: 10% 90%;
+      height: 100%;
+      width: 50vw;
+      margin: 0; } }
+
+.editor-title {
+  text-align: center;
+  height: 10vh;
+  padding: 1rem 0;
+  margin-bottom: 0; }
+
+#editor {
+  width: 90vw;
+  margin: 0 auto;
+  font-size: 0.85rem;
+  height: 85vh;
+  background: #b7dcff; }
+  @media screen and (min-width: 720px) {
+    #editor {
+      font-size: 0.9rem; } }
+  @media screen and (min-width: 960px) {
+    #editor {
+      width: 40vw;
+      height: 85%; } }
+
+.Preview-Container {
+  padding: 1rem 0;
+  background: #ffc6ff;
+  height: auto; }
+  @media screen and (min-width: 960px) {
+    .Preview-Container {
+      width: 50vw;
+      margin: 0; } }
+
+#preview {
+  width: 90vw;
+  margin: 0 auto; }
+  @media screen and (min-width: 960px) {
+    #preview {
+      padding-left: 3rem; } }
+
+#preview p {
+  text-align: justify; }
+
+#preview img {
+  width: 75%; }
+  @media screen and (min-width: 720px) {
+    #preview img {
+      width: 50%; } }
+  @media screen and (min-width: 960px) {
+    #preview img {
+      width: 35%; } }

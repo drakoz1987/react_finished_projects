@@ -1,0 +1,29 @@
+.Preview-Container {
+	padding: 1rem 0;
+	background: lighten($lighterPurple, 15%);
+	height: auto;
+	@media screen and(min-width:960px) {
+		width: 50vw;
+		margin: 0;
+	}
+}
+#preview {
+	width: 90vw;
+	margin: 0 auto;
+	@media screen and(min-width:960px) {
+		padding-left: 3rem;
+	}
+}
+#preview p {
+	text-align: justify;
+}
+
+#preview img {
+	width: 75%;
+	@media screen and(min-width:720px) {
+		width: 50%;
+	}
+	@media screen and(min-width:960px) {
+		width: 35%;
+	}
+}

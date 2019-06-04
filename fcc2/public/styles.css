@@ -1,0 +1,19 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #cccccc; }
+
+.App {
+  display: -ms-grid;
+  display: grid;
+  width: 85vw;
+  background-color: white;
+  margin: 2.5vh auto; }
+
+.text-container {
+  width: 75vw;
+  margin: auto; }
+
+.preview-container {
+  width: 70vw;
+  margin: 0 auto; }

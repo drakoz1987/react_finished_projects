@@ -1,0 +1,38 @@
+.season-display-container{
+  display:grid;
+  grid-template-areas:
+    "top . ."
+    "text text text"
+    ". . bottom";
+  height:100vh;
+}
+.summer{
+  background-color: #FFAA00;
+}
+.winter{
+  background-color: lightblue;
+}
+
+.season-img{
+  width:14rem;
+}
+.top-icon{
+  grid-area:top;
+}
+.bottom-icon{
+  grid-area:bottom;
+  display:grid;
+  justify-items: end;
+  align-items: end;
+}
+.content{
+  display:grid;
+  grid-area: text;
+}
+.content-text{
+  text-align: center;
+  display:grid;
+  align-content: center;
+  font-size: 5rem;
+  font-weight:bold;
+}
